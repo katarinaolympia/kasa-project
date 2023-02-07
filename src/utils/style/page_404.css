@@ -1,0 +1,44 @@
+.error_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error_logo {
+    width: 597px;
+    height: 263px;
+    margin-top: 40px;
+}
+
+.error_text {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 60px;
+}
+
+.error_link {
+    text-decoration-line: underline;
+    color: #FF6060;
+    cursor: pointer;
+    margin-top: 80px;
+}
+
+@media only screen and (max-width:767px) {
+
+    .error_logo {
+        width: 50%;
+        height: 50%;
+        margin-top: 60px;
+    }
+
+    .error_text {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .error_link {
+        margin-top: 60px;
+    }
+
+}

@@ -1,0 +1,116 @@
+.card_title {
+    color: #FF6060;
+    margin-top: 40px;
+    font-size: 36px;
+}
+
+.card_location {
+    margin-top: -10px;
+}
+
+.host_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    top: -60px;
+}
+
+.host_profile {
+    display: flex; 
+    align-items: center;
+}
+
+.host_name {
+    text-align: right;
+    position: relative;
+    margin-right: 40px;
+    width: 100px;
+}
+
+.host_picture {
+    width: 94px;
+    height: 94px;
+    border-radius: 90%;
+}
+
+.stars_container {
+    margin-top: 7px;
+    display: flex;
+    gap: 5px;
+}
+
+.tags_container {
+    display: flex;
+    gap: 25px;
+    position: relative;
+    top: 30px;
+}
+
+.tags {
+    list-style: none;
+    font-size: 18px;
+    background-color: #FF6060;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .card_title {
+        font-size: 20px;
+        width: 250px;
+        margin-top: 20px;
+        line-height: 26px;
+    }
+
+    .card_location {
+        margin-top: -5px;
+    }
+
+    .tags_container {
+        flex-wrap: wrap;
+        gap: 5px;
+        display: inline-flex;
+        top: -10px;
+    }
+
+    .tags {
+        font-size: 14px;
+        font-weight: 400;
+        border-radius: 5px;
+        margin-top: 25px;
+    }
+
+    .host_container {
+        top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .host_picture {
+        width: 55px;
+        height: 55px;
+    }
+
+    .host_name {
+        font-size: 12px;
+        margin-right: 25px;
+        text-align: right;
+        width: 50px;
+    }
+
+    .stars {
+        width: 22px;
+        height: 22px;
+    }
+
+    .stars_container {
+        position: relative;
+        left: -220px;
+        top: -47px;
+    }
+
+}
+

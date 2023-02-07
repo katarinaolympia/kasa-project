@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: "Montserrat", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    text-decoration: none;
+    color: #FF6060;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 14px;
+    }
+}
