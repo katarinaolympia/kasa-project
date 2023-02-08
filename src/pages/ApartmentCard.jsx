@@ -22,7 +22,7 @@ function ApartmentCard(card) {
 
     }
 
-    const { title, pictures, location, description, host, equipments } = apartment
+    const { title, location, host } = apartment
 
     return (
 
