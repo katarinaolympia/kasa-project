@@ -14,7 +14,7 @@ function Cards(cards) {
 
                 return (
 
-                    <div key={`${card}-${index}`}>
+                    <div key={`${card}-${index}`} className='flex_container'>
 
                     <Link to={`/apartments/${card.id}`} className='card_link'>
                 
