@@ -1,12 +1,12 @@
 .cards_container {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
+    justify-content: center;
     margin-top: 40px;
     background-color: #F6F6F6;
     border-radius: 25px;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .cards{
@@ -53,4 +53,18 @@
     top: -55px;
 }
 
+}
+
+@media only screen and (min-width: 1600px) {
+
+    .cards_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 30px;
+    }
+
+    .flex_container {
+        display: flex;
+        justify-content: center;
+    }
 }
